@@ -1,0 +1,16 @@
+body {
+  font-family: Helvetica;
+  background-color: black;
+}
+
+h1{
+  color: aliceblue;
+}
+
+#fecha {
+  margin: 10px;
+}
+
+#subjects .option{
+  color: black;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+  http-equiv="Content-Security-Policy"
+  content="script-src 'self' 'unsafe-inline'"
+/>
+  <link rel="stylesheet" href="./css/styles.css"/>
+  <title>GIOHUB</title>
+</head>
+<body>
+  <h1 id="fecha">Cargando...</h1>
+  <script src="./js/renderer.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      enviar_fecha();
+    });
+  </script>
+
+  <select id="subjects">
+    <option value="ALA">ALA</option>
+    <option value="DG">DG</option>
+    <option value="DM">DM</option>
+    <option value="EsA">EsA</option>
+    <option value="FA">FA</option>
+    <option value="MSol">MSol</option>
+    <option value="V">V</option>
+    <option value="Otro">Otro</option>
+  </select>
+
+  <button>Play/Stop</button>
+
+</body>
+</html>

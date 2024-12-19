@@ -1,2 +1,0 @@
-# StudyApp
- StudyApp with Electron
